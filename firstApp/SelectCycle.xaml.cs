@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace firstApp
 {
-    public partial class SelectCycle : UserControl
+    public partial class SelectCycle : Page
     {
         public SelectCycle()
         {
