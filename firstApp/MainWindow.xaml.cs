@@ -49,25 +49,15 @@ namespace firstApp
 
         private void ToManageTables(object sender, RoutedEventArgs e)
         {
-            mainFrame.Content = new ManageTables();
+            ManageTables Manage = new ManageTables();
+            mainFrame.NavigationService.Navigate(Manage);
         }
 
         private void ToCycle(object sender, RoutedEventArgs e)
         {
+            SelectCycle cycle = new SelectCycle();
+            mainFrame.NavigationService.Navigate(cycle);
 
-            mainFrame.Content = new SelectCycle();
-            // mainFrame.Navigate(new SelectCycle());
-            // mainFrame.NavigationService.Navigate(new SelectCycle());
-        }
-
-        private void ToPOI(object sender, RoutedEventArgs e)
-        {
-            mainFrame.Content = new SelectPOI();
-        }
-
-        private void ToGeography(object sender, RoutedEventArgs e)
-        {
-            mainFrame.Content = new Geography();
         }
 
         private void ToSandbox(object sender, RoutedEventArgs e)
