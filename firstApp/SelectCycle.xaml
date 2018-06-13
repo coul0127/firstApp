@@ -86,7 +86,7 @@
                 _Save
             </Button>
             <Button Style="{StaticResource MaterialDesignRaisedLightButton}"
-                    Width="100">
+                    Width="100" Click="CancelWizard">
                 _Cancel
             </Button>
         </StackPanel>

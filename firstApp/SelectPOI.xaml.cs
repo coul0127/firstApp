@@ -18,11 +18,27 @@ namespace firstApp
     /// <summary>
     /// Interaction logic for SelectPOI.xaml
     /// </summary>
-    public partial class SelectPOI : UserControl
+    public partial class SelectPOI : Page
     {
         public SelectPOI()
         {
             InitializeComponent();
+        }
+        private void ToGeography(object sender, RoutedEventArgs e)
+        {
+            Geography Geo = new Geography();
+            this.NavigationService.Navigate(Geo);
+
+        }
+        private void CancelWizard(object sender, RoutedEventArgs e)
+        {
+            Dashboard cancelwiz = new Dashboard();
+            this.NavigationService.Navigate(cancelwiz);
+
+        }
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.GoBack();
         }
     }
 }

@@ -24,37 +24,19 @@ namespace firstApp
 
         }
 
-      
+
 
         private void ToPOI(object sender, RoutedEventArgs e)
         {
-           //this.NavigationService.Navigate(new SelectCycle());
-           // mainFrame.Content = new SelectPOI();
-           // this.Navigate(new SelectPOI());
-           
+            SelectPOI POI = new SelectPOI();
+            this.NavigationService.Navigate(POI);
+
         }
+        private void CancelWizard(object sender, RoutedEventArgs e)
+        {
+            Dashboard cancelwiz = new Dashboard();
+            this.NavigationService.Navigate(cancelwiz);
 
-        //private void ListBox_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
-        //{
-        //    if (e.Delta < 0)
-        //    {
-        //        scrollviewer.LineDown();
-        //    }
-        //    else
-        //    {
-        //        scrollviewer.LineUp();
-        //    }
-        //}
-
-        //private void ListBox_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
-        //{
-        //    e.Handled = true;
-
-        //    var e2 = new MouseWheelEventArgs(e.MouseDevice, e.Timestamp, e.Delta);
-        //    e2.RoutedEvent = ListBox.MouseWheelEvent;
-        //    e2.Source = e.Source;
-
-        //    scrollviewer.RaiseEvent(e2);
-        //}
+        }
     }
 }

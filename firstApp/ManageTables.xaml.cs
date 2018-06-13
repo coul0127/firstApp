@@ -18,11 +18,18 @@ namespace firstApp
     /// <summary>
     /// Interaction logic for ManageTables.xaml
     /// </summary>
-    public partial class ManageTables : UserControl
+    public partial class ManageTables : Page
     {
         public ManageTables()
         {
             InitializeComponent();
+        }
+
+        private void TableWizard(object sender, RoutedEventArgs e)
+        {
+            SelectCycle cycle = new SelectCycle();
+            this.NavigationService.Navigate(cycle);
+
         }
     }
 }

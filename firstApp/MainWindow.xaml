@@ -35,7 +35,7 @@
                     <fa:ImageAwesome Icon="Cube" Width="245" Height="30" VerticalAlignment="Center" Margin="-20.677,-5.669,-208.324,-8.331"  />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Dashboard" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" >
+            <MenuItem Header="Dashboard" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToDashboard" >
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Home" VerticalAlignment="Bottom" Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
@@ -45,17 +45,17 @@
                     <materialDesign:PackIcon Kind="TableSettings" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Cycle"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToCycle">
+            <MenuItem Header="Item 3"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="POI" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToPOI" >
+            <MenuItem Header="Item 4" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" >
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Geography" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToGeography">
+            <MenuItem Header="Item 5" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
