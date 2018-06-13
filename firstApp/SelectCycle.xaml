@@ -33,7 +33,7 @@
 
         <Rectangle Grid.Row="0" Grid.ColumnSpan="3" Fill="#FF666666"></Rectangle>
 
-        <TextBlock  Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Grid.Row="1" Grid.Column="1" Margin="0,20,0,0" TextWrapping="NoWrap">Select a Cycle</TextBlock>
+        <TextBlock  Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Grid.Row="1" Grid.Column="1" Margin="0,20,0,0" TextWrapping="NoWrap">Cycle</TextBlock>
 
         <DockPanel Grid.Row="2" Grid.Column="1">
             <materialDesign:Card DockPanel.Dock="Top"  Background="{DynamicResource PrimaryHueDarkBrush}" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Padding="8">Cycle list</materialDesign:Card>
