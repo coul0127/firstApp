@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="firstApp.SelectCycle"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+       
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:firstApp"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+   
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="55"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.ColumnSpan="3" Fill="#FF666666"></Rectangle>
+
+        <TextBlock  Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Grid.Row="1" Grid.Column="1" Margin="0,20,0,0" TextWrapping="NoWrap">Select a Cycle</TextBlock>
+
+        <DockPanel Grid.Row="2" Grid.Column="1">
+            <materialDesign:Card DockPanel.Dock="Top"  Background="{DynamicResource PrimaryHueDarkBrush}" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Padding="8">Cycle list</materialDesign:Card>
+
+            <ListBox  IsEnabled="{Binding IsChecked, ElementName=EnableListBox}" ScrollViewer.HorizontalScrollBarVisibility="Auto" >
+                <ListBoxItem>
+                    <DockPanel Grid.Row="3" Grid.Column="1">
+                        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Height="14.14">Cycle resource for 2013 2B</TextBlock>
+                        <materialDesign:PopupBox HorizontalAlignment="Right" Height="22.35">
+                            <StackPanel>
+                                <Button Content="More"/>
+                            </StackPanel>
+                        </materialDesign:PopupBox>
+                    </DockPanel>
+                </ListBoxItem>
+                <TextBlock>Cycle resource for 2011 2A</TextBlock>
+                <TextBlock>Cycle resource for 2006 2B</TextBlock>
+                <TextBlock>Cycle resource for 2006 2A</TextBlock>
+                <TextBlock>Cycle resource for 2001 2A</TextBlock>
+                <TextBlock>Cycle resource for 1996 2B</TextBlock>
+                <TextBlock>Cycle resource for 1996 2A</TextBlock>
+                <TextBlock>Cycle resource for 1991 2B</TextBlock>
+                <TextBlock>Cycle resource for 1991 2A</TextBlock>
+                <TextBlock>Cycle resource for 1991 2B</TextBlock>
+                <TextBlock>Cycle resource for 1986 2B</TextBlock>
+                <TextBlock>Cycle resource for 1986 2A</TextBlock>
+                <TextBlock>Cycle resource for 1981 2B</TextBlock>
+                <TextBlock>Cycle resource for 1981 2A</TextBlock>
+                <TextBlock>Cycle resource for 1976 2B</TextBlock>
+                <TextBlock>Cycle resource for 1976 2A</TextBlock>
+                <TextBlock>Cycle resource for 1971 2B</TextBlock>
+                <TextBlock>Cycle resource for 1971 2A</TextBlock>
+            </ListBox>
+        </DockPanel>
+
+        <GroupBox Grid.Row="3" Grid.Column="1" Header="Descripton" Margin="0,20,0,0" VerticalAlignment="Top">
+            <TextBlock TextWrapping="Wrap">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.
+            </TextBlock>
+        </GroupBox>
+
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,30,0">
+            <Button Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                    Width="100" Margin="0,0,20,0" Click="ToPOI">
+                _Next
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Width="100" Margin="0,0,20,0">
+                _Save
+            </Button>
+            <Button Style="{StaticResource MaterialDesignRaisedLightButton}"
+                    Width="100">
+                _Cancel
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

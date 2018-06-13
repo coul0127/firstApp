@@ -1,0 +1,138 @@
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\firstApp.exe.config
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\firstApp.exe
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\firstApp.pdb
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\FontAwesome.WPF.dll
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\FontAwesome.WPF.xml
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\MainWindow.g.cs
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\ManageTables.g.cs
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\App.g.cs
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.cache
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.lref
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\MainWindow.baml
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\ManageTables.baml
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.g.resources
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.Properties.Resources.resources
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.csproj.GenerateResource.cache
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.csproj.CoreCompileInputs.cache
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.csproj.CopyComplete
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.exe
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.pdb
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\App.baml
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\obj\Debug\firstApp.csprojAssemblyReference.cache
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\jessica.coulas\source\repos\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\MainWindow.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\selectCycle.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\App.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.lref
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.exe
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\ManageTables.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.exe.config
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.exe
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\FontAwesome.WPF.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\ShowMeTheXAML.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\FontAwesome.WPF.xml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\App.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\MainWindow.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\ManageTables.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\selectCycle.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.g.resources
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.Properties.Resources.resources
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.GenerateResource.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.CoreCompileInputs.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.CopyComplete
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.exe.config
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.exe
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\firstApp.pdb
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\FontAwesome.WPF.dll
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\ShowMeTheXAML.dll
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\FontAwesome.WPF.xml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\MainWindow.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\ManageTables.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\selectCycle.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\SelectPOI.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\template.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\App.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.cache
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp_MarkupCompile.lref
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\App.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\MainWindow.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\ManageTables.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\selectCycle.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\SelectPOI.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\template.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.g.resources
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.Properties.Resources.resources
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.GenerateResource.cache
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.CoreCompileInputs.cache
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csproj.CopyComplete
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.exe
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\firstApp.csprojAssemblyReference.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\SelectPOI.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\template.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\SelectPOI.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\template.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\dashboard.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\dashboard.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Dashboard.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Dashboard.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\Sandbox.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\Sandbox.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Sandbox.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Sandbox.baml
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Geography.g.cs
+C:\Users\emily.blanchett\Documents\GitHub\firstApp\firstApp\obj\Debug\Geography.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\Geography.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp\firstApp\obj\Debug\Geography.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\firstApp.exe.config
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\firstApp.exe
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\firstApp.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\FontAwesome.WPF.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\ShowMeTheXAML.dll
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\FontAwesome.WPF.xml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.csprojAssemblyReference.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Dashboard.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Geography.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\MainWindow.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\ManageTables.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Sandbox.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\SelectCycle.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\SelectPOI.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\template.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\App.g.cs
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp_MarkupCompile.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp_MarkupCompile.lref
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\App.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Dashboard.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Geography.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\MainWindow.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\ManageTables.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\Sandbox.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\SelectCycle.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\SelectPOI.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\template.baml
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.g.resources
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.Properties.Resources.resources
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.csproj.GenerateResource.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.csproj.CoreCompileInputs.cache
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.csproj.CopyComplete
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.exe
+C:\Users\jessica.coulas\Documents\GitHub\firstApp - Copy\firstApp\obj\Debug\firstApp.pdb
