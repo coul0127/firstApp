@@ -46,18 +46,16 @@ namespace firstApp
             mi.Background = (SolidColorBrush) converter.ConvertFromString("#21A397");
             mi.BorderBrush = (SolidColorBrush) converter.ConvertFromString("#21A397");
     }
+        private void ToDashboard(object sender, RoutedEventArgs e)
+        {
+            Dashboard Dash = new Dashboard();
+            mainFrame.NavigationService.Navigate(Dash);
+        }
 
         private void ToManageTables(object sender, RoutedEventArgs e)
         {
             ManageTables Manage = new ManageTables();
             mainFrame.NavigationService.Navigate(Manage);
-        }
-
-        private void ToCycle(object sender, RoutedEventArgs e)
-        {
-            SelectCycle cycle = new SelectCycle();
-            mainFrame.NavigationService.Navigate(cycle);
-
         }
 
         private void ToSandbox(object sender, RoutedEventArgs e)

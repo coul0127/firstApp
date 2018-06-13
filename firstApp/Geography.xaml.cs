@@ -18,11 +18,21 @@ namespace firstApp
     /// <summary>
     /// Interaction logic for Geography.xaml
     /// </summary>
-    public partial class Geography : UserControl
+    public partial class Geography : Page
     {
         public Geography()
         {
             InitializeComponent();
+        }
+        private void CancelWizard(object sender, RoutedEventArgs e)
+        {
+            Dashboard cancelwiz = new Dashboard();
+            this.NavigationService.Navigate(cancelwiz);
+
+        }
+        private void GoBack(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.GoBack();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="firstApp.ManageTables"
+﻿<Page x:Class="firstApp.ManageTables"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
@@ -20,7 +20,8 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="55"/>
         </Grid.RowDefinitions>
 
@@ -33,7 +34,12 @@
         <TextBlock Grid.Row="0" Grid.Column="1" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="0,20,0,0">Manage tables</TextBlock>
 
         <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource MaterialDesignBody1TextBlock}">My First Material Design App</TextBlock>
+        <Button
+    Style="{StaticResource MaterialDesignRaisedAccentButton}"
+    ToolTip="Create a table" Grid.Row="2" Grid.Column="1" Width="200" Click="TableWizard">
+            _Create table
+        </Button>
 
 
     </Grid>
-</UserControl>
+</Page>
