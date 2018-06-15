@@ -74,6 +74,12 @@
     <Compile Include="Geography.xaml.cs">
       <DependentUpon>Geography.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlaceOfResidence.xaml.cs">
+      <DependentUpon>PlaceOfResidence.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOfWork.xaml.cs">
+      <DependentUpon>PlaceOfWork.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sandbox.xaml.cs">
       <DependentUpon>Sandbox.xaml</DependentUpon>
     </Compile>
@@ -107,6 +113,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ManageTables.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlaceOfResidence.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlaceOfWork.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
