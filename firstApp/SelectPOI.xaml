@@ -19,26 +19,13 @@
 
 
     <Grid>
-        <!--<Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition MaxWidth="1300"/>
-            <ColumnDefinition MaxWidth="1300" Width="2*"/>
-        </Grid.ColumnDefinitions>-->
 
         <Grid.RowDefinitions>
             <RowDefinition Height="55"/>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="55"/>
         </Grid.RowDefinitions>
 
@@ -52,78 +39,80 @@
         <Rectangle Grid.Row="0" Grid.ColumnSpan="4" Fill="#FF666666"></Rectangle>
         <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,20,0,0" TextWrapping="NoWrap" Text="Population of Interest"/>
         <TextBlock Style="{StaticResource MaterialDesignSubheadingTextBlock}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Top">Search</TextBlock>
-        <StackPanel Grid.Row="3" Grid.RowSpan="2" Grid.Column="1" Margin="0,0,20,0" VerticalAlignment="Top">
-            <TextBox materialDesign:HintAssist.Hint="Cycle Resource for 2014 2B" IsEnabled="False" MinWidth="72" Margin="0,5,0,0"></TextBox>
-            <TextBox materialDesign:HintAssist.Hint="Keyword" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,5,0,0"/>
-            <ComboBox materialDesign:HintAssist.Hint="Focus" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,5,0,0">
+        <DockPanel Grid.Row="3" Grid.RowSpan="2" Grid.Column="1" Margin="0,0,20,0" VerticalAlignment="Top">
+            <TextBox materialDesign:HintAssist.Hint="Cycle Resource for 2014 2B" IsEnabled="False" MinWidth="72" Margin="0,0,0,20" DockPanel.Dock="Top"></TextBox>
+            <TextBox materialDesign:HintAssist.Hint="Keyword" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,0,0,20" DockPanel.Dock="Top"/>
+            <ComboBox materialDesign:HintAssist.Hint="Focus" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
                 <ComboBoxItem>All</ComboBoxItem>
             </ComboBox>
-            <ComboBox materialDesign:HintAssist.Hint="Group" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,5,0,0">
+            <ComboBox materialDesign:HintAssist.Hint="Group" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
                 <ComboBoxItem>Private</ComboBoxItem>
                 <ComboBoxItem>Public</ComboBoxItem>
             </ComboBox>
-            <ComboBox materialDesign:HintAssist.Hint="Status" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,5,0,0">
+            <ComboBox materialDesign:HintAssist.Hint="Status" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
                 <ComboBoxItem>Draft</ComboBoxItem>
                 <ComboBoxItem>Locked</ComboBoxItem>
             </ComboBox>
-            <Button Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="0,10,0,0">_Search</Button>
-
-        </StackPanel>
+            <Button DockPanel.Dock="Top" Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="0,10,0,0">_Search</Button>
+        </DockPanel>
 
         <DockPanel Grid.Row="3" Grid.Column="2" VerticalAlignment="Top">
             <materialDesign:Card DockPanel.Dock="Top" Background="{DynamicResource PrimaryHueDarkBrush}" Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}" Padding="8">Population of interest list</materialDesign:Card>
             <ListView>
-                    <ListViewItem>2006 2B All persons excluding Institutional Residents
-                    </ListViewItem>
-                    <ListViewItem>2006 2B All persons including Institutional Residents
-                    </ListViewItem>
-                    <ListViewItem>2006 2B Persons in Private Households in Occupied Private Dwellings
-                    </ListViewItem>
-                    <ListViewItem>2006 2B Private Households in Occupied Private Dwellings
-                    </ListViewItem>
-                    <ListViewItem>2006 2B Census Families In Private Households In Private Occupied Dwellings
-                    </ListViewItem>
-                    <ListViewItem>2006 2B Economic Families In Private Households In Private Occupied Dwellings
-                    </ListViewItem>
-                    <ListViewItem>2006 2B Occupied Private Dwellings
-                    </ListViewItem>
-                    <ListViewItem>Census Family Universe
-                    </ListViewItem>
-                    <ListViewItem>Dwelling Universe
-                    </ListViewItem>
-                    <ListViewItem>Economic Family Universe
-                    </ListViewItem>
-                    <ListViewItem>Household Universe
-                    </ListViewItem>
-                    <ListViewItem>People in Shelter Costs Universe</ListViewItem>
-                    <ListViewItem>Persons 15 years and older excluding institutional residents who worked in 2005-06 reference year
-                    </ListViewItem>
-                    <ListViewItem>Persons 15 years of age and older excluding institutional residents
-                    </ListViewItem>
-                    <ListViewItem>Persons 15+ not in economic families in private households
-                    </ListViewItem>
-                    <ListViewItem>Persons in Census Families in Private Households
-                    </ListViewItem>
-                    <ListViewItem>Persons in Economic Families in Private Households
-                    </ListViewItem>
-                    <ListViewItem>Persons in Mobility five Years Universe 5 years of age and older excluding institutional residents
-                    </ListViewItem>
-                </ListView>
-         
-        </DockPanel>    
-       
-        <DockPanel Grid.Row="4" Grid.Column="2">
-            <GroupBox  Header="Descripton" Width="275" HorizontalAlignment="Left">
-                <TextBlock>
-                This is the description content.
+                <ListViewItem>2006 2B All persons excluding Institutional Residents
+                </ListViewItem>
+                <ListViewItem>2006 2B All persons including Institutional Residents
+                </ListViewItem>
+                <ListViewItem>2006 2B Persons in Private Households in Occupied Private Dwellings
+                </ListViewItem>
+                <ListViewItem>2006 2B Private Households in Occupied Private Dwellings
+                </ListViewItem>
+                <ListViewItem>2006 2B Census Families In Private Households In Private Occupied Dwellings
+                </ListViewItem>
+                <ListViewItem>2006 2B Economic Families In Private Households In Private Occupied Dwellings
+                </ListViewItem>
+                <ListViewItem>2006 2B Occupied Private Dwellings
+                </ListViewItem>
+                <ListViewItem>Census Family Universe
+                </ListViewItem>
+                <ListViewItem>Dwelling Universe
+                </ListViewItem>
+                <ListViewItem>Economic Family Universe
+                </ListViewItem>
+                <ListViewItem>Household Universe
+                </ListViewItem>
+                <ListViewItem>People in Shelter Costs Universe</ListViewItem>
+                <ListViewItem>Persons 15 years and older excluding institutional residents who worked in 2005-06 reference year
+                </ListViewItem>
+                <ListViewItem>Persons 15 years of age and older excluding institutional residents
+                </ListViewItem>
+                <ListViewItem>Persons 15+ not in economic families in private households
+                </ListViewItem>
+                <ListViewItem>Persons in Census Families in Private Households
+                </ListViewItem>
+                <ListViewItem>Persons in Economic Families in Private Households
+                </ListViewItem>
+                <ListViewItem>Persons in Mobility five Years Universe 5 years of age and older excluding institutional residents
+                </ListViewItem>
+            </ListView>
+        </DockPanel>
+
+        <Grid Grid.Row="4" Grid.Column="2" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <GroupBox Grid.Column="0"  Header="Descripton"  Margin="0,0,20,0">
+                <TextBlock TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.
                 </TextBlock>
             </GroupBox>
-            <GroupBox  Header="History" Width="275" HorizontalAlignment="Right">
-                <TextBlock>
+            <GroupBox Grid.Column="1"  Header="History">
+                <TextBlock TextWrapping="Wrap">
                 This is the history content.
                 </TextBlock>
             </GroupBox>
-        </DockPanel>
+        </Grid>
 
         <StackPanel Grid.Row="5" Grid.ColumnSpan="4"  Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,30,0">
             <Button Style="{StaticResource MaterialDesignRaisedButton}"
@@ -143,9 +132,6 @@
                 _Cancel
             </Button>
         </StackPanel>
-
-
-
     </Grid>
 
 
