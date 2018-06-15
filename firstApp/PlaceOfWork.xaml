@@ -37,6 +37,39 @@
         </Grid.ColumnDefinitions>
 
         <Rectangle Grid.Row="0" Grid.ColumnSpan="4" Fill="#FF666666"></Rectangle>
+        <Grid Grid.Row="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" Margin="30,0,30,5">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Path Grid.Column="0" Data="M193.5,21 L54,21" HorizontalAlignment="Center" Height="3" Stretch="Fill" Stroke="#FF93c47d" StrokeThickness="2" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"><Hyperlink NavigateUri="SelectCycle.xaml" Foreground="White">Cycle</Hyperlink></TextBlock>
+
+            <Ellipse Grid.Column="1" Height="18.167"  VerticalAlignment="Center" Width="18.167" Stroke="#FF93c47d" StrokeThickness="3" Fill="#FF93c47d"/>
+
+            <materialDesign:PackIcon Kind="Check" Grid.Column="1" Margin="0,17,0,0"/>
+            <Path Grid.Column="2" Data="M193.5,21 L54,21" HorizontalAlignment="Center" Height="3" Stretch="Fill" Stroke="#FF93c47d" StrokeThickness="2" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"><Hyperlink NavigateUri="SelectPOI.xaml" Foreground="White">POI</Hyperlink></TextBlock>
+
+            <Ellipse Grid.Column="3" Height="18.167"  VerticalAlignment="Center" Width="18.167" Stroke="#FF93c47d" StrokeThickness="3" Fill="#FF93c47d"/>
+            <materialDesign:PackIcon Kind="Check" Grid.Column="3" Margin="0,17,0,0"/>
+
+            <Path Grid.Column="4" Data="M193.5,21 L54,21" HorizontalAlignment="Center" Height="3" Stretch="Fill" Stroke="#FF9FC5F8" StrokeThickness="2" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Bottom"><Hyperlink NavigateUri="Geography.xaml" Foreground="White">Geography</Hyperlink></TextBlock>
+            <Ellipse Grid.Column="5" Height="18.167"  VerticalAlignment="Center" Width="18.167" Stroke="#FF9FC5F8" Fill="#FF9FC5F8" StrokeThickness="3"/>
+
+            <Path Grid.Column="6" Data="M193.5,21 L54,21" Height="3" Stretch="Fill" Stroke="White" StrokeThickness="2" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="6" HorizontalAlignment="Center" VerticalAlignment="Bottom"><Hyperlink Foreground="White">Table Spec.</Hyperlink></TextBlock>
+            <Ellipse Grid.Column="7" Height="18.167"  VerticalAlignment="Center" Width="18.167" Stroke="White" StrokeThickness="3"/>
+
+        </Grid>
         <TextBlock Style="{StaticResource MaterialDesignHeadlineTextBlock}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,20,0,0" TextWrapping="NoWrap" Text="Place of work"/>
         <TextBlock Style="{StaticResource MaterialDesignSubheadingTextBlock}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Top">Search</TextBlock>
         <DockPanel Grid.Row="3" Grid.RowSpan="2" Grid.Column="1" Margin="0,0,20,0" VerticalAlignment="Top">
