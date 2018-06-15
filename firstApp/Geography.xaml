@@ -34,19 +34,19 @@
         <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="0,20,0,0">Geography</TextBlock>
         <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock  Style="{StaticResource MaterialDesignBody1TextBlock}" HorizontalAlignment="Center">Place of residence</TextBlock>
-            <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Width="500" Content="Add">
+            <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Width="500" Content="Add" Click="AddPOR">
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Border BorderThickness="0 1 0 0" BorderBrush="{DynamicResource MaterialDesignDivider}" Width="300"/>
-            <TextBlock Style="{StaticResource MaterialDesignCaptionTextBlock}" FontSize="10">AND/OR</TextBlock>
+            <TextBlock Style="{StaticResource MaterialDesignCaptionTextBlock}" FontSize="10" Margin="10,0">AND/OR</TextBlock>
             <Border BorderThickness="0 1 0 0" BorderBrush="{DynamicResource MaterialDesignDivider}" Width="300"/>
         </StackPanel>
 
 
         <StackPanel Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock  Style="{StaticResource MaterialDesignBody1TextBlock}" HorizontalAlignment="Center">Place of work</TextBlock>
-            <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Width="500" Content="Add">
+            <Button Style="{StaticResource MaterialDesignRaisedLightButton}" Width="500" Content="Add" Click="AddPOW">
             </Button>
         </StackPanel>
         

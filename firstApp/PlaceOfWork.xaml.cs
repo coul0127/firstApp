@@ -16,13 +16,19 @@ using System.Windows.Shapes;
 namespace firstApp
 {
     /// <summary>
-    /// Interaction logic for Geography.xaml
+    /// Interaction logic for PlaceOfWork.xaml
     /// </summary>
-    public partial class Geography : Page
+    public partial class PlaceOfWork : Page
     {
-        public Geography()
+        public PlaceOfWork()
         {
             InitializeComponent();
+        }
+        private void AddPOW(object sender, RoutedEventArgs e)
+        {
+            Geography geo = new Geography();
+            this.NavigationService.Navigate(geo);
+
         }
         private void CancelWizard(object sender, RoutedEventArgs e)
         {
@@ -33,18 +39,6 @@ namespace firstApp
         private void GoBack(object sender, RoutedEventArgs e)
         {
             this.NavigationService.GoBack();
-        }
-        private void AddPOR(object sender, RoutedEventArgs e)
-        {
-            PlaceOfResidence por = new PlaceOfResidence();
-            this.NavigationService.Navigate(por);
-
-        }
-        private void AddPOW(object sender, RoutedEventArgs e)
-        {
-            PlaceOfWork pow = new PlaceOfWork();
-            this.NavigationService.Navigate(pow);
-
         }
     }
 }
