@@ -43,8 +43,8 @@ namespace firstApp
 
             MenuItem mi = sender as MenuItem;
             var converter = new System.Windows.Media.BrushConverter();
-            mi.Background = (SolidColorBrush) converter.ConvertFromString("#21A397");
-            mi.BorderBrush = (SolidColorBrush) converter.ConvertFromString("#21A397");
+            //mi.Background = (SolidColorBrush) converter.ConvertFromString("#21A397");
+            //mi.BorderBrush = (SolidColorBrush) converter.ConvertFromString("#21A397");
     }
         private void ToDashboard(object sender, RoutedEventArgs e)
         {

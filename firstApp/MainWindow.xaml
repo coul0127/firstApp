@@ -30,37 +30,38 @@
 
 
         <Menu  x:Name="mainMenu" HorizontalAlignment="Left" Margin="0,0,0,0" Width="245" Background="{DynamicResource PrimaryHueMidBrush}" FontSize="18" Padding="0">
-            <MenuItem   Background="{DynamicResource PrimaryHueDarkBrush}" BorderBrush="{x:Null}" Width="245" Height="55" IsEnabled="False" >
+            <MenuItem   Background="{DynamicResource PrimaryHueDarkBrush}" BorderBrush="{x:Null}" Width="245" Height="55" IsEnabled="False" Foreground="white">
                 <MenuItem.Icon>
-                    <fa:ImageAwesome Icon="Cube" Width="245" Height="30" VerticalAlignment="Center" Margin="-20.677,-5.669,-208.324,-8.331"  />
+                    <!--<fa:ImageAwesome Icon="Cube" Width="245" Height="30" VerticalAlignment="Center" Margin="-20.677,-5.669,-208.324,-8.331"  />-->
+                    <materialDesign:PackIcon Kind="Webpack"  Width="245" Height="48" VerticalAlignment="Center" Margin="-20,-19.169,-209,-19.831" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Dashboard" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToDashboard" >
+            <MenuItem Header="Dashboard" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToDashboard" Foreground="white">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Home" VerticalAlignment="Bottom" Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Manage tables" Background="{x:Null}" BorderBrush="{x:Null}" Width="327" Height="55" Padding="20,0,6,0" Click="ToManageTables" >
+            <MenuItem Header="Manage tables" Background="{x:Null}" BorderBrush="{x:Null}" Width="327" Height="55" Padding="20,0,6,0" Click="ToManageTables" Foreground="white">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="TableSettings" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Item 3"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0">
+            <MenuItem Header="Item 3"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Foreground="white">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Item 4" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" >
+            <MenuItem Header="Item 4" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Foreground="white">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Item 5" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0">
+            <MenuItem Header="Item 5" Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Foreground="white">
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Asterisk" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="Sandbox"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToSandbox" >
+            <MenuItem Header="Sandbox"  Background="{x:Null}" BorderBrush="{x:Null}" Width="245" Height="55" Padding="20,0,6,0" Click="ToSandbox" Foreground="white" >
                 <MenuItem.Icon>
                     <materialDesign:PackIcon Kind="Tree" VerticalAlignment="Bottom"  Margin="5,-4.5,-22,-4.5" Width="25" Height="25" />
                 </MenuItem.Icon>

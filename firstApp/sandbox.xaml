@@ -15,21 +15,27 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}">
-    
-    <Grid VerticalAlignment="Top">
+
+    <Grid>
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+
         <Grid.ColumnDefinitions>
-            <ColumnDefinition MaxWidth="1300"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="30"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Grid.Row="0" Height="55" Fill="#FF666666"></Rectangle>
-        <TextBlock Style="{StaticResource MaterialDesignTitleTextBlock}" Grid.Row="1" Margin="10,10,10,22" TextWrapping="NoWrap">Select a Cycle</TextBlock>
+        <Rectangle Grid.Row="0" Grid.ColumnSpan="3" Fill="#FF666666"></Rectangle>
+        <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="0,20,0,0">Sandbox</TextBlock>
+
 
         <!---dot dot popup-->
-        <ScrollViewer Grid.Row="3" Height="200" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" Margin="10,0" Panel.ZIndex="1">
+        <!--<ScrollViewer Grid.Row="3" Height="200" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" Margin="10,0" Panel.ZIndex="1">
             <ListBox  IsEnabled="{Binding IsChecked, ElementName=EnableListBox}">
                 <DockPanel>
                     <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Height="14.14">Cycle resource for 2013 2B</TextBlock>
@@ -38,10 +44,231 @@
                             <Button Content="More"/>
                         </StackPanel>
                     </materialDesign:PopupBox>
+                    -->
+        <!--<materialDesign:DialogHost>
+                        <materialDesign:DialogHost.DialogContent>
+                            <dialogContent />
+                        </materialDesign:DialogHost.DialogContent>
+                    <mainContent />
+                </materialDesign:DialogHost>-->
+        <!--
                 </DockPanel>
             </ListBox>
-        </ScrollViewer>
-        
+        </ScrollViewer>-->
+
+        <materialDesign:DialogHost Grid.Row="3" Grid.Column="1">
+
+            <materialDesign:DialogHost.DialogContent>
+                <Grid Grid.Row="2" Grid.Column="1" Margin="16">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource MaterialDesignSubheadingTextBlock}">Save table specification
+                    </TextBlock>
+                    <StackPanel Grid.Row="1" Grid.Column="0">
+                        <TextBox materialDesign:HintAssist.Hint="Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,0,0,20" DockPanel.Dock="Top"/>
+                        <ComboBox materialDesign:HintAssist.Hint="Group" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
+                            <ComboBoxItem>Private</ComboBoxItem>
+                            <ComboBoxItem>Public</ComboBoxItem>
+                        </ComboBox>
+                        <ComboBox materialDesign:HintAssist.Hint="Status" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
+                            <ComboBoxItem>Draft</ComboBoxItem>
+                            <ComboBoxItem>Locked</ComboBoxItem>
+                        </ComboBox>
+                    </StackPanel>
+                    <Grid Grid.Row="2" Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Row="0" Grid.Column="0"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="English short description"
+                                Height="80">
+
+                        </TextBox>
+
+
+                        <TextBox Grid.Row="0" Grid.Column="1"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="French short description"
+                                Height="80">
+
+                        </TextBox>
+                        <TextBox Grid.Row="1" Grid.Column="0"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="French long description"
+                                Height="80">
+
+                        </TextBox>
+                        <TextBox Grid.Row="1" Grid.Column="1"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="English long description"
+                                Height="80">
+
+                        </TextBox>
+                    </Grid>
+
+
+                    <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Right" >
+                        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                        IsDefault="True"
+                                        Margin="0 8 8 0"
+                                        Command="materialDesign:DialogHost.CloseDialogCommand">
+
+                            ACCEPT
+                        </Button>
+                        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                        IsCancel="True"
+                                        Margin="0 8 8 0"
+                                        Command="materialDesign:DialogHost.CloseDialogCommand">
+
+                            CANCEL
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:DialogHost.DialogContent>
+            <Button Grid.Row="2" Grid.Column="1" Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" Content="Open" />
+
+        </materialDesign:DialogHost>
+
+
+        <!--<Grid Grid.Row="2" Grid.Column="1" Margin="16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource MaterialDesignSubheadingTextBlock}">Save table specification
+            </TextBlock>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <TextBox materialDesign:HintAssist.Hint="Name" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,0,0,20" DockPanel.Dock="Top"/>
+                <ComboBox materialDesign:HintAssist.Hint="Group" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
+                    <ComboBoxItem>Private</ComboBoxItem>
+                    <ComboBoxItem>Public</ComboBoxItem>
+                </ComboBox>
+                <ComboBox materialDesign:HintAssist.Hint="Status" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Margin="0,0,0,20" DockPanel.Dock="Top">
+                    <ComboBoxItem>Draft</ComboBoxItem>
+                    <ComboBoxItem>Locked</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <TextBox Grid.Row="0" Grid.Column="0"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="English short description"
+                                Height="80">
+
+                </TextBox>
+
+
+                <TextBox Grid.Row="0" Grid.Column="1"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="French short description"
+                                Height="80">
+
+                </TextBox>
+                <TextBox Grid.Row="1" Grid.Column="0"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="French long description"
+                                Height="80">
+
+                </TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1"
+                                TextWrapping="Wrap"
+                                VerticalAlignment="Stretch"
+                                MinWidth="280"
+                                AcceptsReturn="True"
+                                VerticalScrollBarVisibility="Auto"
+                                SpellCheck.IsEnabled="True"
+                                materialDesign:HintAssist.Hint="English long description"
+                                Height="80">
+
+                </TextBox>
+            </Grid>
+
+
+            <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                        IsDefault="True"
+                                        Margin="0 8 8 0"
+                                        Command="materialDesign:DialogHost.CloseDialogCommand">
+
+                    ACCEPT
+                </Button>
+                <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                        IsCancel="True"
+                                        Margin="0 8 8 0"
+                                        Command="materialDesign:DialogHost.CloseDialogCommand">
+
+                    CANCEL
+                </Button>
+            </StackPanel>
+        </Grid>-->
 
 
     </Grid>
